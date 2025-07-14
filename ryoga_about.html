@@ -2,35 +2,45 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Why don’t you 8号車？</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Why don't you 8号車？</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
     <header>
+
         <div class="header-container">
-          <h1 class="logo">Why don't you 8号車？</h1>
-    
-          <input type="checkbox" id="navBtn">  
-      <label for="navBtn" class="open"><span></span></label>
-      
-          <nav>
-            <ul class="nav-links">
-              <li><a href="index.html">HOME</a></li>
-              <li><a href="about.html">ABOUT</a></li>
-              <li><a href="member.html">MEMBER</a></li>
-              <li><a href="song.html">SONG</a></li>
-              <li><a href="word.html">WORD</a></li>
-              <li><a href="media.html">MEDIA</a></li>
-              <li><a href="behind.html">BEHIND</a></li>
-            </ul>
+          <h1 class="logo"><a href="index.html">Why don't you 8号車？</a></h1>
+
+          <nav class="header__navi_01">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="member.html">MEMBER</a></li>
+          <li><a href="song.html">SONG</a></li>
+          <li><a href="word.html">WORD</a></li>
+          <li><a href="media.html">MEDIA</a></li>
+          <li><a href="behind.html">BEHIND</a></li>
+        </ul>
           </nav>
+          <!-- メニューボタン -->
+          <button class="sp-menu-btn_01">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </button>
         </div>
-      </header>
-  <!-- 推し紹介エリア -->
+
+<!-- jQuery読み込み -->
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+</header>
+
+<!-- 推し紹介エリア -->
   <section class="intro_ryg">
     <p><strong>自称陰キャのいじられキャラ。しかし人呼んで“ リアコ製造機 ”<br>
         ライブMCも担当し、やる時はトコトン決める！<br>
@@ -48,15 +58,17 @@
         <h5><li>ポジション：メインダンサー</li>
         <li>担当：ガリガリ担当</li>
         <li>イメージカラー：紫</li>
-        <li>1994・10・24</li></h5>
+        <li>1994・10・23</li>
+        <li><a href="https://www.instagram.com/garistagram03?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a></li></h5>
+
       </ul>
     </div>
   </section>
 
 <!-- 推しポイント -->
- <h2><p class="mark_ryg">推しポイント</p></h2> 
+ <h2><p class="mark_ryg">💜推しポイント💜</p></h2> 
  <section class="highlight_ryg">
-    <h1>なんだかんだ頼りになるリーダー性・沼すぎるファンサ・イケボな声</h1>
+    <h1>なんだかんだ頼りになるリーダー性・沼すぎる神対応・イケボな声</h1>
    </section> 
 
 <!-- 説明エリア -->
@@ -88,25 +100,32 @@
         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
         picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <p>公式の紹介ビデオです！</p>
-<br>
+      </div>
        <div class="video-box">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/2F_DofJY45w?si=uiVAbe9wvIq3q9DO" 
         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
         picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           <p>リョウガさんのセンター曲です！サムネからもう天才ですけど、、、笑<br>リョウガさんはこれぞ超特急というトンチキ曲でセンターを担うことが多いです！</p>
-<br>
+        </div>
         <div class="video-box">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/9PmFHyA0wvc?si=JJVmuBQBlcRRnCdA" 
         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
         picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       <p>こちらもリョウガさんのセンター曲！<br>サビ以外のかっこいい感じとサビの白目のギャップに笑ってください😂</p>
-<br>
+    </div>
         <div class="video-box">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/M2zVencS8fA?si=tMaB5IpBcSP_dzPp" 
             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
             picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <p>Youtubeチャンネルのおすすめ動画！<br>これを見るとリョウガさんのことが分かるかも？？</p>
+    </div>
 
+        <div class="video-box">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/x8IYFb6D600?si=viVQelqsbYM8T9Ch" 
+          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+          picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <p>雑な女装をさせられるリョウガさんがとてもツボです。</p>
+    </div>
 
 </section>
     </div>

@@ -3,18 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <title>Why don't you 8号車？</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
+<body>
+    <header>
 
-<header>
-    <div class="header-container">
-      <h1 class="logo">Why don't you 8号車？</h1>
+        <div class="header-container">
+          <h1 class="logo"><a href="index.html">Why don't you 8号車？</a></h1>
 
-      <input type="checkbox" id="navBtn">  
-  <label for="navBtn" class="open"><span></span></label>
-      <nav>
-        <ul class="nav-links">
+          <nav class="header__navi_01">
+        <ul>
           <li><a href="index.html">HOME</a></li>
           <li><a href="about.html">ABOUT</a></li>
           <li><a href="member.html">MEMBER</a></li>
@@ -23,13 +27,74 @@
           <li><a href="media.html">MEDIA</a></li>
           <li><a href="behind.html">BEHIND</a></li>
         </ul>
-      </nav>
-    </div>
-  </header>
+          </nav>
+          <!-- メニューボタン -->
+          <button class="sp-menu-btn_01">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </button>
+        </div>
 
-  <main>
+<!-- jQuery読み込み -->
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+</header>
 
+<main>
+<section class="title">
+  <img src="word.png" width="150" height="auto" alt="推し画像1">
+</section>
+<p>超特急はとてもコンセプチュアルなグループなので、
+  独特な用語や、今までの歴史の中で培われてきたしきたりのようなルールのようなものがたくさんあります。</p>
+<p>ここでは、そんな超特急の用語やルールを紹介していきます。用語に関しては大体電車由来です。</p>
+<br> 
+  <h4>MEDIA一覧</h4>
+  <section class="list"><ul>
+    <li><a href="#a">乗車</a></li>
+    <li><a href="#b">担当・号車</a></li>
+    <li><a href="#c">LIVEの時のお決まり？</a></li>
+    <li><a href="#d">撮り鉄</a></li>
+  </ul>
+  </section>
+<br>
+<br>
+<section class="genre">
+  <h2 id="a">乗車</h2>
+  <p>超特急のライブに行くこと、総じて<span class="big_text">超特急のファンになること</span>を電車になぞらえて<span class="big_text">「乗車する」</span>と言います！</p>
+  <p>メンバーもファンも新たに乗車してくれた方(=新規ファン)を見つけると、大抵嬉しいです。</p>
+  <p>ライブチケットのこともスタッフさん(=9号車)はたまに「乗車券」と言ってくれたりします。</p>
+  <p>初めてライブに来てくれること、つまり初乗車の方はライブで必ず聞かれます！メンバーがMCで「今日初乗車の人〜！！」と聞くので、
+    初乗車だったら手を挙げてみてください！メンバーもファンも歓迎ムードで拍手が起こります！</p>
+  <p>超特急の現場はとても暖かい雰囲気です！！</p>
+  <br>
+  
+  <h2 id="b">担当・号車</h2>
+  <p>超特急は、メンバーそれぞれに担当と号車があります！</p>
+  <p>担当が決まった由来としては、<span class="big_text">一桁はそれぞれが適当に決めて、二桁は総案で</span>決まりました。</p>
+  <p>一桁がなぜ適当だったかというと、もともと超特急は期間限定グループだと思っていたからです。
+    ですが、活動がずっと続くことになりメンバーの中では担当変えたい人もいますが結局は全うしています。</p>
+  <p>二桁は当人の案をメインに具体的に決まりました。それぞれの担当の由来はメンバーのページに書いているのでぜひご覧ください！</p>
+  <p>号車はわかりやすく<span class="big_text">年齢順</span>です！結成当初のメンバーが7人いて年齢順についています！<span class="big_text">ファンもメンバーなので連結する形でファンネームは「8号車」</span>になりました！</p>
+  <p>9号車はスタッフさんです。そして超特急をとても気にかけてくれている事務所の先輩である北川景子さんも9号車です！</p>
+  <p>10号車には奥さんに同じく超特急を気にかけてくれているDAIGOさんがついています。</p>
+  <p>それに続く形で、新たに加入した新メンバー4人は11号車から14号車となっています！</p>
+  <br>
 
+  <h2 id="c">LIVEの時のお決まり？</h2>
+  <p>ライブに行ったことがある人はわかると思いますが、アーティストが「次が最後の曲です！」と話すと、ファンは大抵「え〜！！！」という残念な反応を見せると思います。
+    ですが超特急の現場では、<span class="big_text">メンバーが「次が最後の曲です！」と言うと、8号車は「え〜！！！」ではなく「イェーーイ！！！」と喜びます。笑</span></p>
+  <p>これは、リョウガさんの<span class="big_text">「悲しむことはいつでもできるけど、楽しむことは今しかできない」</span>という言葉から来ています！</p>
+  <p>なので残りの曲数が減ってきたら全力で楽しみましょう！！</p>
+  <p>ほかにもメンバーが「僕たちは、超特急です！」と挨拶するときにお決まりのポーズがあるので、ファンの方もポーズを真似します！終わりの挨拶も同じです！</p>
+  <p>また、ライブの時にペンライトを振ると思うのですが、超特急の現場ではペンライトをぐるぐると回します！由来はわかりません！笑</p>
+  <p>超特急のライブは他のアーティストとはやはり一味も二味も違う雰囲気があります！その分一体感もすごいのだと感じます！</p>
+  <br>
+
+  <h2 id="d">撮り鉄</h2>
+  <p>超特急は意外と対面イベントが多く、直接交流できる機会が多いです！その中でもツーショット撮影会や、ライブ後の撮影イベントのことは「撮り鉄」と称して開催されます。</p>
+  <p>彼らは、電車なので。撮り鉄なんです。</p>
+  <p>ライブ後のお見送り会(=撮り鉄付き到着後再点検)では、画面に映るのは一瞬ですがメンバーが一人一人目を合わせてくれて、ファンと交流する時間を大切に思ってくれています！</p>
+</section>
 
 
 

@@ -3,19 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <title>Why don't you 8号車？</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
+<body>
+    <header>
 
-<header>
-    <div class="header-container">
-      <h1 class="logo">Why don't you 8号車？</h1>
+        <div class="header-container">
+          <h1 class="logo"><a href="index.html">Why don't you 8号車？</a></h1>
 
-      <input type="checkbox" id="navBtn">  
-  <label for="navBtn" class="open"><span></span></label>
-  
-      <nav>
-        <ul class="nav-links">
+          <nav class="header__navi_01">
+        <ul>
           <li><a href="index.html">HOME</a></li>
           <li><a href="about.html">ABOUT</a></li>
           <li><a href="member.html">MEMBER</a></li>
@@ -24,9 +27,18 @@
           <li><a href="media.html">MEDIA</a></li>
           <li><a href="behind.html">BEHIND</a></li>
         </ul>
-      </nav>
-    </div>
-  </header>
+          </nav>
+          <!-- メニューボタン -->
+          <button class="sp-menu-btn_01">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </button>
+        </div>
+
+<!-- jQuery読み込み -->
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+      </header>
 
 
   <main>

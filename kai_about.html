@@ -2,34 +2,45 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Why don’t you 8号車？</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Why don't you 8号車？</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
     <header>
+
         <div class="header-container">
-          <h1 class="logo">Why don't you 8号車？</h1>
-    
-          <input type="checkbox" id="navBtn">  
-      <label for="navBtn" class="open"><span></span></label>
-      
-          <nav>
-            <ul class="nav-links">
-              <li><a href="index.html">HOME</a></li>
-              <li><a href="about.html">ABOUT</a></li>
-              <li><a href="member.html">MEMBER</a></li>
-              <li><a href="song.html">SONG</a></li>
-              <li><a href="word.html">WORD</a></li>
-              <li><a href="media.html">MEDIA</a></li>
-              <li><a href="behind.html">BEHIND</a></li>
-            </ul>
+          <h1 class="logo"><a href="index.html">Why don't you 8号車？</a></h1>
+
+          <nav class="header__navi_01">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="member.html">MEMBER</a></li>
+          <li><a href="song.html">SONG</a></li>
+          <li><a href="word.html">WORD</a></li>
+          <li><a href="media.html">MEDIA</a></li>
+          <li><a href="behind.html">BEHIND</a></li>
+        </ul>
           </nav>
+          <!-- メニューボタン -->
+          <button class="sp-menu-btn_01">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </button>
         </div>
-      </header>
+
+<!-- jQuery読み込み -->
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+</header>
+
+
   <!-- 推し紹介エリア -->
   <section class="intro_kai">
     <p>
@@ -50,13 +61,15 @@
         <h5><li>ポジション：メインダンサー</li>
         <li>担当：神秘担当</li>
         <li>イメージカラー：青</li>
-        <li>1994・09・27</li></h5>
+        <li>1994・09・27</li>
+        <li><a href="https://www.instagram.com/927_kai?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a></li></h5>
+      
       </ul>
     </div>
   </section>
 
 <!-- 推しポイント -->
- <h2><p class="mark_ki">推しポイント</p></h2> 
+ <h2><p class="mark_ki">💙推しポイント💙</p></h2> 
  <section class="highlight_kai">
     <h1>色気溢れるパフォーマンス・愛情の大きさ・可愛いもの好きなギャップ</h1>
    </section> 
@@ -70,9 +83,9 @@
     <p>彼の魅力は<span class="big_text">大人の色気マシマシのパフォーマンス</span>です！！
       ダンスのキレより豊かな表情管理で魅せるタイプです！特に「哀」や「狂気」の表情はメンバーの中でダントツだと思ってます！(1カイくん推しの目線ですが)
     もちろんキラキラ笑顔も沼ポイントです！！主が沼ったのはパフォーマンス中の笑顔だったりします😊</p>
-    <p>そんなカイくんの好きなものは<span class="big_text">ポケモン・ぬいぐるみ・シマエナガ</span>です。可愛い。趣味が圧倒的ギャップ。</p>
+    <p>そんなカイくんの好きなものは<span class="big_text">ポケモン・ぬいぐるみ・シマエナガ</span>です。趣味が可愛いくて圧倒的ギャップです。</p>
     大人な雰囲気とは裏腹に、ファンクラブでニンテンドーダイレクトの実況をして一喜一憂してたり、クレーンゲームが趣味でよくぬいぐるみを獲っていたり、
-    シマエナガのぬいぐるみ(かなりサイズデカめらしい)がお家に８羽以上いるとか笑
+    シマエナガのぬいぐるみ(かなりサイズデカめらしい)がお家に８羽以上いるとか🤭
     メンバーもよくカイくんにシマエナガのグッズがあるとあげてるみたいです笑
     <p>カイくん推しの主が思う、カイくんのことを推す最大の魅力は、<span class="big_text">優しい言葉選び・８号者への愛の深さ</span>です。</p>
     <p>8号車を、特に自分推しの子を特に大切にしてくれているのを推していてヒシヒシと感じます。
@@ -96,26 +109,44 @@
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
           allowfullscreen></iframe> 
         <p>公式の紹介ビデオです！</p>
-<br>
+      </div>
+
          <div class="video-box">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/XoaaJE-k288?si=bFa6V0QDrADRh2Xq" 
         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
         picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           <p>カイくんのセンター曲です！色気がやばいです、、、<br>カイくんはtheカッコイイ曲でセンターを担うことが多いです！</p>
-<br>
+        </div>
+
         <div class="video-box">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/EVrzJkP2oKg?si=zeQGdqZRb4u7-doC" 
           title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
           picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           <p>こちらもカイくんのメイン曲！<br>シティポップでチルな雰囲気でまさに”アロマ”な曲です🎶</p>
-<br>
+        </div>
+
+        <div class="video-box">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/nTMrQSzYdQU?si=j6tXo32rXVc7NWQA" 
+          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+          picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <p>ライブ映像はないですがもう一つ！<br>本人が1番好きとよくいっている曲です！</p>
+        </div>
+
         <div class="video-box">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/svKG4hNomE0?si=Pb7IVtjCHb6G72ta" 
           title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
-           picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p>Youtubeチャンネルのおすすめ動画！<br>クレーンゲーム好きなカイくんの持ち込み企画です🧸</p>
+          picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+         <p>Youtubeチャンネルのおすすめ動画！<br>クレーンゲーム好きなカイくんの持ち込み企画です🧸</p>
+        </div>
 
+        <div class="video-box">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/IXmP9FjqEx8?si=9d8gR4UBgV4yAyGm" 
+          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+          picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <p>バーテンダーカイくんがとてもツボです</p>
+        </div>
 
+        
 </section>
     </div>
  

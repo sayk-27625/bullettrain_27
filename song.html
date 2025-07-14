@@ -3,18 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <title>Why don't you 8号車？</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
+<body>
+    <header>
 
-<header>
-    <div class="header-container">
-      <h1 class="logo">Why don't you 8号車？</h1>
-      <input type="checkbox" id="navBtn">  
-  <label for="navBtn" class="open"><span></span></label>
-  
-      <nav>
-        <ul class="nav-links">
+        <div class="header-container">
+          <h1 class="logo"><a href="index.html">Why don't you 8号車？</a></h1>
+
+          <nav class="header__navi_01">
+        <ul>
           <li><a href="index.html">HOME</a></li>
           <li><a href="about.html">ABOUT</a></li>
           <li><a href="member.html">MEMBER</a></li>
@@ -23,18 +27,266 @@
           <li><a href="media.html">MEDIA</a></li>
           <li><a href="behind.html">BEHIND</a></li>
         </ul>
-      </nav>
-    </div>
-  </header>
+          </nav>
+          <!-- メニューボタン -->
+          <button class="sp-menu-btn_01">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </button>
+        </div>
+
+<!-- jQuery読み込み -->
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+</header>
 
 <main>
+  <section class="title">
+    <img src="song.png" width="150" height="auto" alt="推し画像1">
+    </section>
+<p>超特急の楽曲は、個性的なものばかりです！可愛い曲からカッコいい曲、これぞ超特急といういわゆるトンチキ曲までさまざまです！！必ず好きな曲が見つかると思います！</p>
+<p>公式チャンネルがYoutubeにたくさんライブ映像や、MVを投稿しているのでそれらをメインに紹介していきます！！</p>
 
 
+<h4>ジャンル別おすすめ曲</h4>
+<section class="list"><ul>
+  <li><a href="#h">超特急の歴史の曲</a></li>
+  <li><a href="#k">これぞ超特急！！ライブでぶち上がるトンチキ&コール曲</a></li>
+  <li><a href="#t">ただふざけてるだけじゃない！ファンを魅了するクールな曲</a></li>
+  <li><a href="#a">素直な愛を届けるキラキラした青春曲</a></li>
+  <li><a href="#b">番外編：超特急の妹分!? & アコースティック超特急「せぶいれのうた」</a></li>
+
+</ul>
+</section>
+<br>
+<br>
+<section class="genre">
+  <h2 id="h">超特急の歴史の曲</h2>
+  <p>この13年以上の歴史の中でとても大切な曲たちをまず紹介します！</p>
+  <br>
+  <div class="video-grid">
+    <div class="video-item">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/eb7tRHFtsFE?si=8piLdFAan7ppZfSz&amp;start=4836" 
+      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+      picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <p>『No More Cry』<br>超特急の始まりの曲です！特に一桁の洗礼された振りのそろい方はやばいです</p>
+    </div>
+
+    <div class="video-item">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/SiObsGLx5Oc?si=FzXMCJkh2-MJB-X2" 
+      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+      picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <p>『TRAIN』<br>超特急のデビュー曲です！<br>新体制になり『Re-TRAIN』として編曲されています！</p>
+    </div>
+
+    <div class="video-item">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/5sX7EcUSJIk?si=D5pYihUyi6ouH3OY" 
+      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+      picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <p>『超ネバギバDANCE』<br>初めてオリコン一位を獲得した曲です！</p>
+    </div>
+
+    <div class="video-item">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/AP1QYUzulkY?si=R4VJcnMllwIAOu7O" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+        picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>『AwA AwA』<br>ネバギバ以来7年半ぶりにオリコン一位を獲得した最新シングル！<br>AwA AwAポーズで一緒に踊りましょう！🎶</p>
+    </div>
+    </div>  
+  </section>
+
+<br>
+<br>
+<section class="genre">
+  <h2 id="k">これぞ超特急！！ライブでぶち上がるトンチキ&コール曲</h2>
+  <p>ライブに欠かせない！全力変顔多めなトンチキ曲と会場全員で盛り上がるコール曲を紹介します！特にコールを覚えるともっと楽しめること間違いなしです！！！</p>
+  <br>
+  <h3>振りがダサい！？トンチキ曲！</h3>
+  <div class="video-grid">
+    <div class="video-item">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ewt-tUxpxQc?si=_3cLV5_AYvefO6nJ"
+       title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+       picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <p>『バッタマン』<br>超特急の真骨頂！泥臭い歌詞ですが全力でそれを踊ることに意味があってダサカッコいいです！</p>
+    </div>
+
+    <div class="video-item">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/BvttdfzOclU?si=CP4KfkOHh0X7AgYq" 
+      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+       picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <p>『超えてアバンチュール』<br>こちらも大人気な曲！全てのオタクに刺さる歌詞です！<br>「〇〇のせい！」と推しの名前を入れて全力で叫びます！</p>
+    </div>
+
+    <div class="video-item">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/OwcW2tp2qaU?si=ZXuYWKAb9KQh-PcW" 
+      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+      picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <p>『メタルなかよし』<br>最新トンチキソングです！キミもともだちッ！！🌟<br>超特急の曲の特徴としては、歌詞は深いこと言ってるのに振りのインパクトが強すぎて初見じゃ入ってこないです。</p>
+    </div>
+
+    <div class="video-item">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/wr1OV_rajgs?si=sEmqGMPo_w7j0l8s" 
+      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+      picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <p>『SAY NO』<br>超特急と叫ぶところは毎回振りが違うので、見てまねて楽しみましょう！<br>顔面崩壊曲です！！！</p>
+    </div>
+
+  </div>  
+
+    <h3>一体感がすごい！！コール曲！</h3>
+    <div class="video-grid">
+      <div class="video-item">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ri2WDNM3z4E?si=MBY3LTqJYn2pu85G" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+        picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>『Secret Express』<br>一発目の機械音で超盛り上がります！みんなでチクタクとガッチャーン言いましょう！<br>歌詞にメンバーの名前が入っているのも特徴です！</p>
+      </div>
+  
+      <div class="video-item">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XoOgsS1tKnA?si=DXlBfjiW0U8Pl94E" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+        picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>『Burn!』<br>どんなライブでもほぼ確実にやると言っても過言ではない曲です！<br>名前のコールはぜひ覚えてほしいです！</p>
+      </div>
+
+      <div class="video-item">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/037jFXvXIjE?si=VaAwN5wAGVto84js" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+        picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>『Draw イッパツ！』<br>ファンの方が歌ってないかレベルのコール曲です！<br>この動画がライブ直前に公開されたのにも関わらず8号車がコール完璧だった伝説があります</p>
+      </div>
+  
+      <div class="video-item">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ckRaP9gjvK0?si=BiY0ywsJFMadMAFK" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+        picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>『No.1』<br>「〇〇がNo.1！」と推しの名前を入れて全力で叫びます！<br>フェスでは「超特急がNo.1！」でお願いします！！</p>
+      </div>
+    </div>  
+  </section>
+
+<br>
+<br>
+<section class="genre">
+  <h2 id="t">ただふざけてるだけじゃない！ファンを魅了するクールな曲</h2>
+  <p>超特急は振りがなんかダサいだけのグループじゃないです！めちゃめちゃかっこよく魅せる曲たちも紹介します！</p>
+  <br>
+  <div class="video-grid">
+    <div class="video-item">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/tpUtN7YevoA?si=OWRYi9pYjq6f3LYs" 
+      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+      picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <p>『Steal a Kiss』<br>沼なセリフもある人気の曲です！</p>
+    </div>
+
+    <div class="video-item">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/n5akiTYEi8g?si=Kyyu6t8dUSMA1jpm" 
+      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+      picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <p>『MORA MORA』<br>中毒性のあるサビとスタイリッシュな衣装が魅力です😍</p>
+    </div>
+
+    <div class="video-item">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/l9isPWm_YY4?si=JUMJMyH1-Teh3-zj" 
+      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+      picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <p>『Lesson II』<br>超特急の中でもかなり色気のある曲でセンターのタクヤくんの目に惹き込まれます、、<br>MVもかなり魅力的なのでぜひ！</p>
+    </div>
+
+    <div class="video-item">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/XvubXnv0xaQ?si=p6VGQIIHEQNsjvs7" 
+      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+      picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <p>『Spice』<br>最新のライブ映像でミステリアスな曲です！<br>ラスサビの振りはかなり中毒性高いです</p>
+    </div>
+    </div>  
+  </section>
+
+<br>
+<br>
+
+  <section class="genre">
+    <h2 id="a">素直な愛を届けるキラキラした青春曲</h2>
+    <p>王道なキラキラした曲を紹介します！何度でも聴きたくなる歌詞やメロディーが魅力です</p>
+    <br>
+    <div class="video-grid">
+      <div class="video-item">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/u7ZtG_btP1k?si=9sIqNva2BjG1zwci" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+        picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>『My Buddy』<br>おそらく超特急の曲の中で1番有名な曲です！<br>ドラマの主題歌だったので聞いたことある人もいるかも？？</p>
+      </div>
+  
+      <div class="video-item">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/laU7swTQcRI?si=b9BGlyLAYiavl3Y-" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+        picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>『a kind of love』<br>8号車の人気投票一位を獲得した曲です！主も1番好きな曲です！<br>まさにまっすぐな愛って感じの歌詞で心が明るくなります☺️</p>
+      </div>
+  
+      <div class="video-item">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Qn64gXn46Iw?si=BOWz5uoIAk55zJcm" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+        picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>『キャラメルハート』<br>超特急の最新曲です！<br>MVはトンチキですが、曲自体は王道な恋の歌でたくさん聴きたくなります🥰</p>
+      </div>
+  
+      <div class="video-item">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JAVppSC5tJo?si=8ECTDPLPT3RiBXa7" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+         picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>『fanfare』<br>応援してくれるキラキラな曲です<br>個人的にラスサビ前の2人のハモリからのユーキくんの表情が好きです。(4:04~)</p>
+      </div>
+
+      <div class="video-item">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uoNWllWKRR0?si=05NiESVFoeAMuT5T&amp;start=1060" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+        picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>『gr8est journey』<br>新体制始まりの曲です。動画も新メンバー発表時の映像です！<br>レールのその先までファンを導いてくれる大切な曲です</p>
+      </div>
+  
+      <div class="video-item">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SkriE1Aw4i4?si=y81e4ergxaKsSeE3" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+        picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>『Love Song』<br>ファンの間でかなり人気な曲です！曲名も歌詞もシンプルに愛を伝えてくれます！</p>
+      </div>
+      </div>  
+    </section>
+  
+<br>
+<br>
+    <section class="genre">
+      <h2 id="b">番外編：超特急の妹分!? & アコースティック超特急「せぶいれのうた」</h2>
+      <p>超特急とはまた違った(?)活動の曲も紹介させてください！</p>
+      <br>
+      <div class="video-grid">
+        <div class="video-item">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FPbIqqsC2Aw?si=ms73iHEfoqUECfBO" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+        picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <p>『Guilty/BULLET PINK』<br>「超特急の妹分」としてデビューしたBULLET PINK。通称バレピです！
+            <br>まあ一桁がガチ女装をしているだけなのですが。笑笑<br>エイプリールフール企画でもなく通常運転です。超特急意外と女装すること多いです。
+            <br>特にユーキくんに似た(?)黒髪のユーコちゃんはかなり可愛くてよく話題になります笑
+            <br>声は編集で高くしていますが歌もメンバーが歌っています！<br>バレピはこの一曲で止まっているので9人Verを今でも8号車は待ち続けてる状態です😊
+            <br>、、、皆さんはどの子が好みですか？？笑笑笑</p>
+        </div>
+    
+        <div class="video-item">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/hOEjlACDG3U?si=N6y6j_qP_lf2vLKB"
+           title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+           picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <p>『refrain』<br>7号車 タカシと、11号車 シューヤのバックボーカル組・通称"せぶいれ"コンビにフォーカスをあてたライブ<br>
+            「アコースティック超特急　せぶいれのうた」というものもあります。
+            <br>普段はバックボーカルとしてメインダンサーを支えている2人がメインとなり、全編バンド編成でアコースティックVerにアレンジした超特急の曲を歌うライブで、
+            <br>2人の柔らかい空気感と、アレンジが効いた楽曲を楽しめます🎶
+            <br>ずっとツインで歌いたかったタカシくんと、タカシくんを支えたいと加入したシューヤくんが2人で楽しそうに歌っている姿からしか得られない栄養があります。</p>
+        </div>
+        </div>  
+      </section>
 
 
-
-
-
+  
 </main>
 
   <footer>
